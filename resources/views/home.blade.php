@@ -27,9 +27,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link" href="{{route('login')}}">Student Login</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Teacher Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('teacher.login')}}">Teacher Login</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{route('register')}}">Student Registration</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Teacher Registration</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{route('teacher.register')}}">Teacher Registration</a></li>
                     </ul>
                 </div>
             </div>
